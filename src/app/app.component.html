@@ -1,0 +1,34 @@
+<nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li><a routerLink="/">Inicio</a></li>
+    <li><a routerLink="/list">Contatos</a></li>
+    <li><a routerLink="/two-way-biding">Novo Contato</a></li>
+    <li><a routerLink="/updateContatos">Atualizar Contatos</a></li>
+  </ul>
+</nav>
+<section id="welcome-section" class="welcome-section">
+  <form id="survey-form">
+    <h1>Agenda</h1>
+    <nav>
+      <ul id="form-ul">
+        <li><a routerLink="/list">Lista de Contatos</a></li>
+        <li><a routerLink="/two-way-biding">Criar Usuario</a></li>
+      </ul>
+    </nav>
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+  </form>
+</section>
+<footer>
+  <p>
+    &copy;
+    <a>
+      <a
+        href="https://www.linkedin.com/in/david-silva-731b831a4/"
+        target="_blank"
+        >David Silva</a
+      >
+    </a>
+  </p>
+</footer>
